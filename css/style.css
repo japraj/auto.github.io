@@ -186,6 +186,12 @@ a.dl{
   font-weight:bold;
 }
 
+img{
+  max-width:100%;
+  width:auto/9;
+  height:auto;
+}
+
 @media(max-width: 768px){
   #highlight,
   header #branding,
