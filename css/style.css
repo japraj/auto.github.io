@@ -16,6 +16,29 @@ ul{
   padding:0;
 }
 
+.capstone ul {
+    font-size: 22.5px;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.capstone li {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.capstone h4 {
+  font-size: 30px;
+}
+
+#bibliography li {
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-left: 0px;
+  margin-bottom: 45px;
+}
+
 .button_1{
   height:38px;
   background:#369bcf;
@@ -32,6 +55,11 @@ ul{
   color:#000000;
   margin-top:10px;
   margin-bottom:10px;
+}
+
+img.center{
+  display: block;
+  margin: 0 auto;
 }
 
 header{
@@ -86,20 +114,64 @@ header a:hover{
   padding:20px;
 }
 
-#case {
+#mid{
+  margin:0px;
+  padding:0px;
+}
+
+.link{
+  color:#0080ff;
+  font-size: 25px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.capstone{
   min-height:400px;
   padding:20px;
-  text-align:right;
+  padding-bottom:0px;
   color:#000000;
 }
 
-#case h1{
+.capstone p{
+  font-size: 22.5px;
+}
+
+.capstone h2{
+  font-size: 20px;
+}
+
+
+.process {
+  margin-bottom: 40px;
+  padding-right: 9999px;
+}
+
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  height:auto;
+}
+
+#separator {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.showcase {
+  margin-top:50px;
+  text-align:center;
+  color:#000000;
+}
+
+.showcase h1{
   margin-top:30px;
-  margin-bottom:10px;
   font-size:35px;
 }
 
-#case p{
+.showcase p{
   font-size:20px;
   padding-left:750px;
 }
